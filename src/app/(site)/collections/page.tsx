@@ -17,7 +17,7 @@ const COLLECTION_IMAGE: Record<string, string> = {
 export default function CollectionsPage() {
   return (
     <div className="px-6 pb-24 pt-32 lg:px-14">
-      <div className="mx-auto max-w-[1500px]">
+      <div className="mx-auto max-w-375">
         <header className="mb-14 border-b border-line pb-10 text-center">
           <span className="eyebrow text-gold">ÉLANORA</span>
           <h1 className="display mt-4 text-6xl lg:text-8xl">The Collections</h1>
@@ -26,13 +26,13 @@ export default function CollectionsPage() {
         <div className="grid gap-6 md:grid-cols-2">
           {COLLECTIONS.map((c, i) => (
             <Reveal key={c.slug} delay={i * 0.08}>
-              <Link href={`/collections/${c.slug}`} data-cursor="view" className="group relative block aspect-[3/2] overflow-hidden bg-pearl">
+              <Link href={`/collections/${c.slug}`} data-cursor="view" className="group relative block aspect-3/2 overflow-hidden bg-pearl">
                 <Image
                   src={img(COLLECTION_IMAGE[c.slug], 1100)}
                   alt={c.label}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-105"
+                  className="object-cover transition-transform duration-1400 ease-out group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-ink/35 transition-colors group-hover:bg-ink/45" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-ivory">

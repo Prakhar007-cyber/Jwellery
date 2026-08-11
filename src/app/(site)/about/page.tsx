@@ -21,8 +21,8 @@ export default function AboutPage() {
         </p>
       </div>
 
-      <div className="mx-auto mt-20 max-w-[1400px] px-6 lg:px-14">
-        <div className="relative aspect-[16/9] overflow-hidden bg-pearl">
+      <div className="mx-auto mt-20 max-w-350 px-6 lg:px-14">
+        <div className="relative aspect-video overflow-hidden bg-pearl">
           <Image src={img(IMAGES.modelGoldBangles, 1800)} alt="ÉLANORA craftsmanship" fill sizes="100vw" className="object-cover" />
         </div>
       </div>

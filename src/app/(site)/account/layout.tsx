@@ -12,7 +12,7 @@ export default async function AccountLayout({ children }: { children: React.Reac
 
   return (
     <div className="px-6 pb-24 pt-32 lg:px-14">
-      <div className="mx-auto max-w-[1300px]">
+      <div className="mx-auto max-w-325">
         <header className="mb-12 border-b border-line pb-8">
           <span className="eyebrow text-gold">My ÉLANORA</span>
           <h1 className="display mt-3 text-5xl lg:text-6xl">

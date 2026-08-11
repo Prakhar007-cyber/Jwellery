@@ -20,7 +20,7 @@ export default async function CollectionPage({ params }: { params: Promise<{ slu
 
   return (
     <div className="px-6 pb-24 pt-32 lg:px-14">
-      <div className="mx-auto max-w-[1500px]">
+      <div className="mx-auto max-w-375">
         <header className="mb-14 border-b border-line pb-12 text-center">
           <span className="eyebrow text-gold">The {collection.label} Collection</span>
           <h1 className="display mt-4 text-6xl lg:text-8xl">{collection.tagline}</h1>

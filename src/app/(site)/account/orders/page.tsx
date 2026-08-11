@@ -19,7 +19,7 @@ export default async function OrdersPage() {
         </div>
       ) : (
         <div className="mt-8 overflow-x-auto">
-          <table className="w-full min-w-[560px] text-sm">
+          <table className="w-full min-w-140 text-sm">
             <thead>
               <tr className="border-b border-line text-left">
                 <th className="pb-3 font-normal"><span className="eyebrow text-espresso-soft">Order</span></th>

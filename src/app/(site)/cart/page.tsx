@@ -14,7 +14,7 @@ export default function CartPage() {
 
   return (
     <div className="px-6 pb-24 pt-32 lg:px-14">
-      <div className="mx-auto max-w-[1200px]">
+      <div className="mx-auto max-w-300">
         <header className="mb-12 border-b border-line pb-8 text-center">
           <span className="eyebrow text-gold">ÉLANORA</span>
           <h1 className="display mt-3 text-6xl lg:text-7xl">Your Bag</h1>
